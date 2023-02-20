@@ -161,7 +161,7 @@ h4{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
-.service{
+.skills{
     background: #101010;
     width: 100%;
     padding: 100px 0px;
@@ -178,7 +178,8 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 200px;
+    flex-wrap: wrap;
 }
 .card{
     height: 365px;
@@ -241,6 +242,8 @@ h5{
     margin-bottom: 25px;
 }
 .contact-me .button-two{
+    margin-left: 500px;
+    width: 150px;
     color: white;
     background-color: #f9004d;
     text-decoration: none;

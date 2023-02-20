@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <div class="first">
         <nav>
             <h2 class="logo">Porti<span>folio</span></h2>
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
+        <section id = "home">
         <div class="content">
             <h4>Hello, My name is</h4>
             <h1>Dipen <span>Limbu</span></h1>
@@ -34,7 +35,8 @@
             
         </div>
     </div>
-    <section class="about">
+</section>
+    <section id="about" class="about">
         <div class="main">
             <img src="./image/pic.jpg">
             <div class="about-text">
@@ -45,16 +47,16 @@
             </div>
         </div>
     </section>
-    <section class="service">
+    <section id="skills" class="skills">
         <div class="title">
-            <h2>Our services</h2>
+            <h2>Skills</h2>
         </div>
         <div class="box">
             <div class="card">
                 <i class="fas fa-bars"></i>
-                <h5>Web development</h5>
+                <h5>UI/UX Knowledge</h5>
                 <div class="par">
-                    <p>Every websites should be built with two primary goals. On one hands, it needs to work all devices. And on other hands, it needs to be faster.</p>
+                    <p>Basic Knowledge on Figma.</p>
 
                     <p style="text-align: center;">
                         <a class="button" href="#">Read more</a>
@@ -63,9 +65,9 @@
             </div>
             <div class="card">
                 <i class="fas fa-user"></i>
-                <h5>Web development</h5>
+                <h5>Front-end Developer</h5>
                 <div class="par">
-                    <p>Every websites should be built with two primary goals. On one hands, it needs to work all devices. And on other hands, it needs to be faster.</p>
+                    <p>Knowledge about HTML, CSS, Javascript.</p>
                     <p style="text-align: center;">
                         <a class="button" href="#">Read more</a>
                     </p>
@@ -73,9 +75,9 @@
             </div>
             <div class="card">
                 <i class="fas fa-bell"></i>
-                <h5>Web development</h5>
+                <h5>Back-end Developer</h5>
                 <div class="par">
-                    <p>Every websites should be built with two primary goals. On one hands, it needs to work all devices. And on other hands, it needs to be faster.</p>
+                    <p>Basic Knowledge on Node js and it's framework Express js along with database which is MySQL.</p>
 
                     <p style="text-align: center;">
                         <a class="button" href="#">Read more</a>
@@ -85,7 +87,7 @@
         </div>
     </section>
 
-    <section class="contact-me">
+    <section id="contact" class="contact-me">
         <p>Let me get you a beautiful website.</p>
         <a class="button-two" href="#">Hire me</a>
     </section>
@@ -94,10 +96,11 @@
         <p>Dipen Limbu</p>
         <p>Please contact me through my below medium.</p>
         <div class="social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/dipen.limbu.98229241"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/dipenlimboo444/"><i class="fab fa-instagram"></i></a>
         </div>
         <p class="end">CopyRight By Dipen Limbu</p>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
