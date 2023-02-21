@@ -1,15 +1,7 @@
-document.addEventListener("readystatechange", (event) => {
-    if (event.target.readystate === "complete"){
-        console.log("readystate: complete");
-        initApp();
-    }
-});
 
-const initApp = () => {
-    const contact = document.querySelector("#contact");
-    const a = contact.querySelector("a");
-    a.addEventListener("click", () => {
-
-        console.log("Clicked")
-    })
-}
+const contact = document.querySelector("#contact");
+const button = contact.querySelector("button");
+button.addEventListener("click", function (){
+    alert("submitted");
+})
+console.log("submit");
